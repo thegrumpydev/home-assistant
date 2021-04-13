@@ -1,0 +1,22 @@
+cloud:
+  alexa:
+    filter:
+      include_entities:
+        light.kitchen_overhead_lights
+        light.kitchen_under_cabinet_lights
+        light.kitchen_breakfast_nook_lights
+      include_domains:
+      exclude_entities:
+    entity_config:
+      light.kitchen_overhead_lights:
+        name: kitchen light
+        description: Above lighting in kitchen
+        display_categories: LIGHT
+      light.kitchen_under_cabinet_lights:
+        name: under cabinet lights
+        description: Above lighting in kitchen
+        display_categories: LIGHT
+      light.kitchen_breakfast_nook_lights:
+        name: breakfast nook
+        description: lights in breakfast nook
+        display_categories: LIGHT

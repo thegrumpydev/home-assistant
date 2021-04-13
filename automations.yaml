@@ -1,0 +1,10 @@
+- id: '1618111367830'
+  alias: Kitchen Night Light
+  description: ''
+  trigger:
+  - platform: sun
+    event: sunset
+  condition: []
+  action:
+  - scene: scene.night_light
+  mode: single
