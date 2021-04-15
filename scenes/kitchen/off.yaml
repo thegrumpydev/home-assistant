@@ -1,0 +1,9 @@
+  name: Kitchen Off
+  id: '1618372893831'
+  entities:
+    light.kitchen_breakfast_nook:
+      state: 'off'
+    light.kitchen_overhead:
+      state: 'off'
+    light.kitchen_under_cabinet:
+      state: 'off'

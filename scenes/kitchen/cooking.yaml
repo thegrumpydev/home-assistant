@@ -1,0 +1,9 @@
+  name: Cooking
+  id: '1618270637406'
+  entities:
+    light.kitchen_overhead:
+      brightness: 255
+      state: 'on'
+    light.kitchen_under_cabinet:
+      brightness: 129
+      state: 'on'

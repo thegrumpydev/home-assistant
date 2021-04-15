@@ -1,0 +1,10 @@
+  name: Kitchen Night Light
+  id: '1618110495935'
+  entities:
+    light.kitchen_under_cabinet:
+      brightness: 4
+      state: 'on'
+    light.kitchen_breakfast_nook:
+      state: 'off'
+    light.kitchen_overhead:
+      state: 'off'
