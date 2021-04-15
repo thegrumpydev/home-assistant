@@ -1,0 +1,6 @@
+platform: group
+name: Kitchen Lights
+entities:
+  - light.kitchen_under_cabinet
+  - light.kitchen_overhead
+  - light.kitchen_breakfast_nook
