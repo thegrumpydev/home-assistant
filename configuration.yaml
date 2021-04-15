@@ -11,7 +11,7 @@ homeassistant:
 tts:
   - platform: google_translate
 
-lights: !include_dir_list lights
+light: !include_dir_list lights
 automation: !include automations.yaml
 script: !include scripts.yaml
 scene: !include_dir_list scenes/
