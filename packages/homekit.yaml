@@ -4,4 +4,5 @@ homekit:
       include_domains:
         - light
         - climate
-        
+      exclude_entity_globs:
+        - light.node*
