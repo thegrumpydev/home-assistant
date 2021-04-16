@@ -1,0 +1,5 @@
+platform: group
+name: Bedroom Lights
+entities:
+  - light.bedroom_left_side
+  - light.bedroom_right_side
