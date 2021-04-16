@@ -1,0 +1,7 @@
+---
+homekit:
+  - filter:
+      include_domains:
+        - light
+        - climate
+        
